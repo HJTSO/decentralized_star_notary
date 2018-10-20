@@ -11,6 +11,9 @@
  *     gasPrice: 10000000000,
  *   },
  */
+var HDWalletProvider = require("truffle-hdwallet-provider")
+var mnemonic = "educate salad ridge trap fox invest swamp satisfy renew idea age betray"
+
 module.exports = {
     // See <http://truffleframework.com/docs/advanced/configuration>
     // to customize your Truffle configuration!
@@ -21,7 +24,9 @@ module.exports = {
           network_id: "*"
         }, 
         rinkeby: {
-          provider: () => new HDWalletProvider(mnemonic, infura),
+          provider: function() {
+            return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/3f608e13db594b70bead33ae618694f0")
+          },
           network_id: 4,
           gas : 4500000,
           gasPrice : 10000000000
