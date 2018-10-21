@@ -36,8 +36,12 @@ https://rinkeby.etherscan.io/address/0x79d3a42624e22083dd92742b9f40582b811c4253
 https://rinkeby.etherscan.io/tx/0xe7496a96b2d3a92bbec9bb016c34c0dcb8601ee890218914f3950124b5e3f880
 
 ## Transaction hash
-0xd64484e3795237f3bc1ce7e7ba6d44efc3cb11be216f59fae645f76c23b0b617
-https://rinkeby.etherscan.io/tx/0xd64484e3795237f3bc1ce7e7ba6d44efc3cb11be216f59fae645f76c23b0b617
+problem: 
+when deploying with the function of createStar() in Remix using:
+["Star power 103!", "I love my wonderful star", "ra_032.155", "dec_121.874", "mag_245.978", 1],
+it always show "VM Exception while processing transaction: revert".
 
 ## TokenId
 1
+
+## PutStarUpForSale hash
