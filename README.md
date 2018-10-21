@@ -37,6 +37,7 @@ https://rinkeby.etherscan.io/tx/0xe7496a96b2d3a92bbec9bb016c34c0dcb8601ee8902189
 
 ## Transaction hash
 0x66239825a533ee20b354e875b82dca6edbb165cfe1444375ab1bd47666d42320
+https://rinkeby.etherscan.io/tx/0x66239825a533ee20b354e875b82dca6edbb165cfe1444375ab1bd47666d42320
 
 History problem: 
 when deploying with the function of createStar() in Remix using:
